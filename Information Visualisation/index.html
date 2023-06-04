@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Vic Public Transport</title>
+    <link rel="stylesheet" href="theme.css">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+        <div class="logo_name">Menu</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+
+    <ul class="nav-list">
+       <li class="tablink" onclick="openPage('Home', this)" id="defaultOpen">
+            <a href="#">
+              <i class='bx bx-home' ></i>
+              <span class="links_name">Home</span>
+            </a>
+            <span class="tooltip">Home</span>
+       </li>
+
+      <li class="tablink" onclick="openPage('Bus', this)">
+        <a href="#">
+          <i class='bx bx-bus'></i>
+          <span class="links_name">Bus</span>
+        </a>
+         <span class="tooltip">Bus</span>
+      </li>
+
+     <li class="tablink" onclick="openPage('Train', this)">
+       <a href="#">
+         <i class='bx bx-train' ></i>
+         <span class="links_name">Train</span>
+       </a>
+       <span class="tooltip">Train</span>
+     </li>
+
+     <li class="tablink" onclick="openPage('Tram', this)">
+       <a href="#">
+         <i class='bx bxs-train' ></i>
+         <span class="links_name">Tram</span>
+       </a>
+       <span class="tooltip">Tram</span>
+     </li>
+
+     <li class="tablink" onclick="openPage('Performance', this)">
+      <a href="#">
+        <i class='bx bx-line-chart' ></i>
+        <span class="links_name">Performance</span>
+      </a>
+      <span class="tooltip">Performance</span>
+    </li>
+
+     <li class="tablink" onclick="openPage('About', this)">
+       <a href="#">
+         <i class='bx bx-folder' ></i>
+         <span class="links_name">About</span>
+       </a>
+       <span class="tooltip">About</span>
+     </li>
+
+    </ul>
+  </div>
+
+  <section id="Home" class="tabcontent">
+      <div class="text">Public Transport</div>
+      <div class="home-big">
+        <div style="display: flex;align-items: center;justify-content: center;">
+         <div style="   height: 44vh;opacity:0.7;filter:alpha(opacity=70)"><img src="./img/state_home_img.png" class="home-big-img"></div>
+         <img src="./img/vic_state_logo.png" class="home-big-logo">
+        </div>
+        </div>
+      <p style="margin-right:5em;margin-top: 1em;">Public Transport Victoria (stylised as PT>, pronounced PTV) is the brand name for public transport in the Australian state of Victoria. It was the trading name of the Go Public Transport Development Authority (PTDA), a now-defunct statutory authority in Victoria, responsible for providing, coordinating, and promoting public transport.</p>
+      <br>
+      <p style="margin-right:5em;">PTV enters into contracts with transport operators on behalf of the State to provide train, tram, and bus services throughout Victoria :</p>
+      <div class="picture_Home">
+        <div class="Transport-type">
+          <img src="./img/train_img.jpeg" style="width:23vw;">
+          <div class="intro_border">
+           <div class="tranport-into">
+             <p class="intro-title">
+               <ul>
+                <li style="font-weight: 600;margin-left:1em">Trains in Melbourne</li>
+                <p>The Melbourne rail network is a passenger and freight train system in the city of Melbourne, Victoria, Australia. 
+                  Metro trains connect Melbourne's suburbs with Flinders Street Station in the city. The city loop is Melbourne's underground system, 
+                  with five stations servicing the central business district: Southern Cross Station, 
+                  Flagstaff, Melbourne Central, Parliament and Flinders Street.
+
+                </p>
+                <li style="font-weight: 600;margin-left:1em">Trains in regional Victoria</li>
+                <p>Rail transport in Victoria, Australia, is provided by a number of railway operators who operate over the government-owned railway lines. 
+                  The rail network radiates from the state capital, Melbourne, 
+                  with main interstate links to Sydney and to Adelaide, as well as major lines running to regional centres,
+                  upgraded as part of the Regional Fast Rail project.
+                </p>
+               </ul>
+              </p>
+           </div>
+          </div>
+        </div>
+        <div class="Transport-type">
+          <img src="./img/tram_img.jpeg" style="width:23vw;">
+          <div class="intro_border">
+           <div class="tranport-into">
+             <p class="intro-title">Trams in Melbourne</p>
+             <p>Trams are a major form of public transport in Melbourne, 
+              the capital city of the state of Victoria, Australia. Trams have operated continuously in Melbourne since 1885. 
+              Since then they have become a distinctive part of Melbourne's character and feature in tourism and travel advertising.
+              At the start of 2015, the Free Tram Zone was introduced, which provided for free tram travel within the CBD, 
+              Docklands and the Queen Victoria Market, and ticketing was simplified to have just two payment zones.
+              Primarily aimed at helping tourists move around the city centre, 
+              the Free Tram Zone was criticised by some as contributing to tram overcrowding.
+              </p>
+           </div>
+          </div>
+        </div>
+        <div class="Transport-type">
+          <img src="./img/bus_img.jpeg" style="width:23vw;">
+          <div class="intro_border">
+           <div class="tranport-into">
+             <p class="intro-title">Bus services in Melbourne and throughout Victoria</p>
+             <p>Buses in Melbourne, Australia, are a major form of public transport in Melbourne, 
+              with an extensive bus network. Melbourne buses run frequently to major hubs, including shopping centres,
+              schools, hospitals, leisure and sports venues, and some of Melbourne's biggest attractions. Bus routes intersect with train and tram lines, 
+              allowing for easy journey planning across the network. Most of the bus network is a covered by the myki ticketing system.
+              While the city relies predominantly on an inner-city tram network and radial train network, the outer suburbs of Melbourne are primarily serviced by bus.
+               Melbourne's buses also provide a local feeder to Melbourne's train and tram network. 
+            </p>
+           </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="Train" class="tabcontent">
+    <div class="text">TRAIN</div>
+    <div class="type-main-content">
+      <div class="content descryption">
+        <div class="cards">
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white">About 16 million</p>
+           <p style="font-size: 10px;color:white">passengers carried a year</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white"> 28%</p>
+           <p style="font-size: 10px;color:white">of all trips taken on public transport.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white">330</p>
+           <p style="font-size: 10px;color:white">train stations</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white">226</p>
+           <p style="font-size: 10px;color:white">trains</p>
+          </div>
+        </div>
+       </div>
+      </div>
+      <p>V/Line operates regional train services within Victoria and to Albury in New South Wales. There are also interstate rail services which link Melbourne to Adelaide and Sydney.
+      <br><br>
+        In Melbourne's city centre, all regional and interstate services stop only at Southern Cross Station, except for V/Line trains from Traralgon and Bairnsdale which also stop at Flinders Street Station.</p>
+       </div>
+       <div class='tableauPlaceholder' id='viz1665885874756' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VicTrain2&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='device' value='desktop'/><param name='name' value='VicTrain2&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VicTrain2&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665885874756');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1250px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1250px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+  </section>
+
+  <section id="Tram" class="tabcontent">
+    <div class="text">TRAM</div>
+    <div class="type-main-content">
+      <div class="content descryption">
+        <p>Yarra Trams in Melbourne is the world's largest tram network consisting of seven locations.</p>
+       <div class="cards">
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white"> Over 200 million</p>
+           <p style="font-size: 10px;color:white">passengers carried a year</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white"> 8%</p>
+           <p style="font-size: 10px;color:white">of all trips taken on public transport.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white"> 1763</p>
+           <p style="font-size: 10px;color:white">tram stops</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white"> 493</p>
+           <p style="font-size: 10px;color:white">trams</p>
+          </div>
+        </div>
+       </div>
+        <p>Melbourne is well known for it’s iconic tram network, trams are fast, 
+          efficient and for the most part don’t get affected by traffic.</p>
+      </div>
+      <div class='tableauPlaceholder' id='viz1666154195948' style='position: relative'><noscript><a href='#'><img alt='仪表板 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;vic_tram&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='vic_tram&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;vic_tram&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='device' value='desktop'/><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1666154195948');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1250px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1250px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='1477px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+  </section>
+
+  <section id="Bus" class="tabcontent">
+    <div class="text">BUS</div>
+    <div class="type-main-content">
+      <div class="content descryption">
+       <p>Victoria’s bus network is an essential part of our integrated transport system.</p>
+       <div class="cards">
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white"> Over 135 million</p>
+           <p style="font-size: 10px;color:white;">passengers carried a year</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white"> 21%</p>
+           <p style="font-size: 10px;color:white;">of all trips taken on public transport.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white"> 7000+ / 19000+</p>
+           <p style="font-size: 10px;color:white;">regional stops / metropolitan stops</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+           <p style="font-size: 20px;color:white"> 4000+</p>
+           <p style="font-size: 10px;color:white;">buses</p>
+          </div>
+        </div>
+       </div>
+       <p>Around 34 per cent of bus trips also involve a tram
+        or train connection and the bus network carries
+        50 per cent of the annual passenger load on the
+        train network.
+        <br><br>Buses can go where rail can’t. In our growing suburbs
+        and regional centres buses are central to local public
+        transport, providing another option to a car. For the
+        young, the elderly and others for whom driving is not
+        an option, buses are often the only way to get around.
+        <br><br>That’s why our buses are great connectors,
+        getting Victorians to work, to school, to services and to the shops.</p>
+      </div>
+      <div class='tableauPlaceholder' id='viz1665842020900' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8R&#47;8R54NPQW4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;8R54NPQW4' /> <param name='toolbar' value='yes' /><param name='device' value='desktop'/><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8R&#47;8R54NPQW4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665842020900');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1250px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1250px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='1277px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+  </section>
+
+  <section id="Performance" class="tabcontent">
+    <div class="text">Performance</div>
+    <div class="type-main-content">
+      <div class="content descryption">
+        <p>The performance analysis is provided to show monthly reliability & services monitored in recent two years. </p>
+        <br>
+        <p>Select type:</p>
+        <div class="button-perfo">
+          <button class="img-button" onclick='analysis("Bus_P",this)' id="default"><img src="./img/Bus_icon.png"></button>
+          <button class="img-button" onclick='analysis("Train_P",this)' id="default"><img src="./img/train_icon.png"></button>
+          <button class="img-button" onclick='analysis("Tram_P",this)'><img src="./img/tram_icon.png"></button>
+          <button class="img-button" onclick='analysis("VTrain_P",this)'><img src="./img/VLine_icon.png"></button>
+        </div>
+
+        <div class="analysis_content" id="Bus_P">
+          <p>Bus</p>
+          <div class="perfor">
+            <div class="perfor_title" style="background-color: #ff9404">
+              <img src="./img/Bus_icon.png" class="title_img">
+              <div class="title_text">
+               <p class="p_title">BUS Operational Performance</p>
+              </div>
+            </div>
+            <div class="tableau">
+              <div class='tableauPlaceholder' id='viz1666152467308' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;bu&#47;bus-per&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='bus-per&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;bu&#47;bus-per&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='device' value='desktop'/><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1666152467308');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height='822px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1250px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+          </div>
+        </div>
+
+        <div class="analysis_content" id="Train_P">
+          <p>Train melbourne</p>
+          <div class="perfor_title" style="background-color:#2596be">
+            <img src="./img/train_icon.png" class="title_img">
+            <div class="title_text">
+              <p class="p_title">TRAIN Operational Performance</p>
+            </div>
+          </div>
+          <div class="tableau">
+            <div class='tableauPlaceholder' id='viz1666153076879' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;me&#47;metroTrain_perf&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='metroTrain_perf&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;me&#47;metroTrain_perf&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='device' value='desktop'/><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1666153076879');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height='822px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1250px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          </div>
+        </div>
+
+        <div class="analysis_content" id="Tram_P">
+          <p>Tram</p>
+          <div class="perfor_title" style="background-color: #80bc1c">
+            <img src="./img/tram_icon.png" class="title_img">
+            <div class="title_text">
+             <p class="p_title">TRAM Operational Performance</p>
+            </div>
+          </div>
+          <div class="tableau">
+            <div class='tableauPlaceholder' id='viz1666153561263' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;tr&#47;tram_per&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='tram_per&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='device' value='desktop'/><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;tr&#47;tram_per&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1666153561263');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height='822px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1250px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          </div>
+        </div>
+
+        <div class="analysis_content" id="VTrain_P">
+          <p>Train victoria</p>
+          <div class="perfor_title" style="background-color: #901c94">
+            <img src="./img/VLine_icon.png" class="title_img">
+            <div class="title_text">
+             <p class="p_title">Regional TRAIN Operational Performance</p>
+            </div>
+          </div>
+          <div class="tableau">
+            <div class='tableauPlaceholder' id='viz1666154155128' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;VT&#47;VTrain_per&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='VTrain_per&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;VT&#47;VTrain_per&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='device' value='desktop'/><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1666154155128');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height='822px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1250px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          </div>
+        </div>
+    </div>
+
+  </section>
+
+  <section id="About" class="tabcontent">
+    <div class="text">ABOUT</div>
+    <div class="ref">
+      <p style="margin-bottom:-1em;">Data reference is as follows:</p>
+      <div class="ref-box">
+        <div class="ref-content">
+          <div class="red-link">
+           <br>
+           <p style="font-size: 20px;color:white;margin-bottom: 5px;"> BUS data source</p>
+           <a style="font-size: 10px;color:white" href="https://philipmallis.com/blog/2020/02/28/melbourne-bus-route-patronage-data-for-2008-2019/ ">Melbourne bus route patronage data</a>
+           <br>
+           <a style="font-size: 10px;color:white" href="https://discover.data.vic.gov.au/dataset/monthly-public-transport-patronage-by-mode ">Monthly public transport patronage by mode </a>
+           <br>
+           <a style="font-size: 10px;color:white" href="https://discover.data.vic.gov.au/dataset/ptv-regional-bus-stops ">PTV Regional Bus Stops</a>
+           <br>
+           <a style="font-size: 10px;color:white" href="https://discover.data.vic.gov.au/dataset/ptv-regional-bus-routes">PTV Regional Bus Routes</a>
+           <br>
+           <a style="font-size: 10px;color:white" href="https://discover.data.vic.gov.au/dataset/ptv-metro-bus-stops">PTV Metro Bus Stops</a>
+           <br>
+           <a style="font-size: 10px;color:white" href="https://data.gov.au/dataset/ds-dga-af33dd8c-0534-4e18-9245-fc64440f742e/details">VIC Suburb/Locality Boundaries</a>
+           <br>
+          </div>
+         </div>
+         <div class="ref-content">
+          <div class="red-link">
+           <br>
+           <p style="font-size: 20px;color:white;margin-bottom: 5px"> Train data source</p>
+           <p style="font-size: 10px;color:white">Data source provided by GEOM90007 Assignment 3</p>
+           <a style="font-size: 10px;color:white" href=""></a>
+           <br>
+           <a style="font-size: 10px;color:white" href=""></a>
+           <br>
+           <a style="font-size: 10px;color:white" href=""></a>
+           <br>
+           <a style="font-size: 10px;color:white" href=""></a>
+           <br>
+          </div>
+         </div>
+      </div>
+      <div class="ref-box">
+        <div class="ref-content">
+          <div class="red-link">
+           <br>
+           <p style="font-size: 20px;color:white;margin-bottom: 5px"> TRAM data source</p>
+           <a style="font-size: 10px;color:white" href="https://discover.data.vic.gov.au/dataset/ptv-metro-tram-stops">PTV Metro Tram Stops</a>
+           <br>
+           <a style="font-size: 10px;color:white" href="https://discover.data.vic.gov.au/dataset/ptv-metro-tram-routes">PTV Metro Tram Routes</a>
+           <br>
+           <a style="font-size: 10px;color:white" href="https://discover.data.vic.gov.au/dataset/monthly-public-transport-patronage-by-mode">Monthly public transport patronage by mode</a>
+           <br>
+          </div>
+         </div>
+         <div class="ref-content">
+          <div class="red-link">
+           <br>
+           <p style="font-size: 20px;color:white;margin-bottom: 5px"> Performance data source</p>
+           <a style="font-size: 10px;color:white" href="https://www.ptv.vic.gov.au/footer/data-and-reporting/network-performance/monthly-performance/">Monthly performance</a>
+           <br>
+          </div>
+         </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="draw.js">
+  </script>
+
+</body>
+</html>
